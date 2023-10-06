@@ -1,5 +1,6 @@
 import React from "react";
 import Menu from "./headless/Menu";
+import Disclosure from "./headless/Disclosure";
 import Listbox from "./headless/Listbox";
 import "./index.css";
 const App = () => {
@@ -10,6 +11,9 @@ const App = () => {
       </div>
       <div>
         <Menu />
+      </div>
+      <div>
+        <Disclosure />
       </div>
     </div>
   );
